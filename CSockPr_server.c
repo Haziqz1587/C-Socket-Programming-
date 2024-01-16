@@ -6,7 +6,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define PORT 8080 // Choose a suitable port
+#define PORT 8080
 
 int main() {
     int server_fd, new_socket, valread;
